@@ -4,15 +4,23 @@
 
 > *"A building is only as strong as its foundation. Software systems are no different."*
 
-Before discussing distributed systems, databases, load balancers, or cloud infrastructure, we need a common vocabulary.
+Imagine standing in front of a magnificent cathedral.
+You admire its towering walls, intricate stained-glass windows, and graceful arches. From the outside, it appears almost magical.
+But the architect sees something different.
+They don't see a cathedral. They see thousands of carefully placed stones, each resting upon another, each serving a purpose. Remove one, and the entire structure changes.
 
-This part intentionally stays concise.
+Modern software systems are much the same.
 
-It does not aim to teach computer science from scratch. Instead, it establishes the mental models that every later chapter relies upon.
+When you open a website, place an order, watch a movie, or send a message, it's easy to see only the finished experience.
+Beneath that experience lies an extraordinary collection of engineering decisions.
+Some decisions were made to make systems faster.
+Others to make them more reliable.
+Some exist to improve security.
+Others exist simply because older solutions no longer scaled.
 
-By the end of Part 0, terms such as **computer**, **process**, **thread**, **memory**, **network**, **client**, **server**, **request**, and **response** should feel familiar, connected, and intuitive.
+Understanding software isn't about memorizing these technologies. It's about understanding why each one came to exist. This book is an invitation to explore those decisions.
 
-These ideas may already be familiar individually.
+Not one technology at a time. But as one interconnected system. Every application, no matter how large or small, begins with a single request. By following that request from beginning to end, we'll uncover the anatomy of modern applications—one layer at a time.
 
-Here, we'll connect them into one coherent picture.
+#### Welcome to The Anatomy of Modern Applications.
 
